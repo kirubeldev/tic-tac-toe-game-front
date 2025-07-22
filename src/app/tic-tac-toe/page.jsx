@@ -136,7 +136,7 @@ export default function TicTacToe() {
             {chatMessages.length > 0 && (
               <div
                 ref={chatBoxRef}
-                className="bg-gray-100 border rounded-lg p-3 max-h-[300px] overflow-y-auto mb-2"
+                className="bg-gray-100 border rounded-lg p-3 max-h-[120px] overflow-y-scroll   scrollbar-thin scrollbar-thumb-transparent scrollbar-track-transparent mb-2"
               >
                 {chatMessages.map((msg, index) => {
                   const isMe = msg.name === name;
