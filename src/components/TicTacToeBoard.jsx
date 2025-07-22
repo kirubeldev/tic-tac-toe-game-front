@@ -1,3 +1,5 @@
+'use client';
+
 export default function TicTacToeBoard({ board, onMove }) {
   return (
     <div className="grid grid-cols-3 gap-2 w-64 mx-auto">
